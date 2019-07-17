@@ -1,0 +1,29 @@
+$dark-color: rgb(66, 66, 66);
+$card-color: white;
+$black-color: #333;
+$greyish-color: rgb(182, 182, 182);
+$error-color: rgba(235, 95, 95, 0.363);
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background: $black-color;
+  color: $card-color;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  background: $error-color;
+  color: $black-color;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+}

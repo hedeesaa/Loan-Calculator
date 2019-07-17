@@ -1,0 +1,79 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center; }
+
+.btn {
+  border: none;
+  background: #333;
+  color: white;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.error {
+  background: rgba(235, 95, 95, 0.363);
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #424242;
+  color: #333; }
+
+.load {
+  padding-top: 1rem;
+  display: none; }
+  .load img {
+    width: 100px; }
+
+.card {
+  margin: 2rem;
+  background: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px; }
+  .card .result-container {
+    display: none; }
+  .card #loan-form,
+  .card #result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem; }
+    .card #loan-form #result-title,
+    .card #result #result-title {
+      margin-bottom: 1rem; }
+    .card #loan-form .input-group,
+    .card #result .input-group {
+      display: flex;
+      padding-bottom: 0.5rem;
+      width: 100%; }
+      .card #loan-form .input-group .add-on,
+      .card #result .input-group .add-on {
+        background: #b6b6b6;
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px 0 0 5px; }
+      .card #loan-form .input-group .add-on-result,
+      .card #result .input-group .add-on-result {
+        width: 50%; }
+      .card #loan-form .input-group .input,
+      .card #result .input-group .input {
+        padding-left: 0.5rem;
+        display: block;
+        width: 100%;
+        border-radius: 0 5px 5px 0;
+        border: solid 1.1px #b6b6b6; }
+    .card #loan-form #years,
+    .card #result #years {
+      padding: 0.5rem 0.8rem;
+      border-radius: 5px;
+      border: solid 1.1px #b6b6b6;
+      margin-bottom: 1rem; }

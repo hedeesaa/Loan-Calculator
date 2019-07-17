@@ -1,0 +1,69 @@
+@import "utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: $dark-color;
+  color: $black-color;
+}
+
+.load {
+  padding-top: 1rem;
+  display: none;
+  img {
+    width: 100px;
+  }
+}
+
+.card {
+  margin: 2rem;
+  background: $card-color;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  .result-container {
+    display: none;
+  }
+  #loan-form,
+  #result {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    #result-title {
+      margin-bottom: 1rem;
+    }
+    .input-group {
+      display: flex;
+      padding-bottom: 0.5rem;
+      width: 100%;
+      .add-on {
+        background: $greyish-color;
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px 0 0 5px;
+      }
+      .add-on-result {
+        width: 50%;
+      }
+      .input {
+        padding-left: 0.5rem;
+        display: block;
+        width: 100%;
+        border-radius: 0 5px 5px 0;
+        border: solid 1.1px $greyish-color;
+      }
+    }
+
+    #years {
+      padding: 0.5rem 0.8rem;
+      border-radius: 5px;
+      border: solid 1.1px $greyish-color;
+      margin-bottom: 1rem;
+    }
+  }
+}
